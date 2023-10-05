@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "vykatest"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-26"
+    "humanitec.com/appId": "vykatest"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
